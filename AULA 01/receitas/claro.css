@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {box-sizing:border-box; margin: 0; padding: 0;}
+
+
+body {
+    background-color: rgb(237, 237, 237);
+    height: 1400px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+header {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 103, 167, 0.7), rgba(159, 176, 255, 0.7));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    color: white;
+    font-family: Righteous;
+    margin-left: 110px;
+
+}
+.menu li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Comfortaa;
+    padding: 10px 15px;
+}
+.menu li a:hover {
+    background-color: rgba(0, 103, 167, 0.05);
+}
+.receita {
+    width: 800px; height: 630px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.receita h1 {
+    font-family: COMFORTAA;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    margin: 20px auto 20px auto;
+    display: inline-block;
+    margin-left: 50px;
+}
+.receita img {
+    border-radius: 4px;
+    margin-left: 45px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.lista {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: COMFORTAA;
+}
+
+.receita2 {
+    width: 800px; height: 630px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.receita2 h1 {
+    font-family: COMFORTAA;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    margin: 20px auto 20px auto;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.receita2 img {
+    border-radius: 4px;
+    margin-left: 45px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
