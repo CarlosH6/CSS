@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete</title>
+</head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .info {
+            display: flex;
+            justify-content: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .info div {
+            width: 300px;
+            height: 300px;
+            margin: 0px 30px 30px 30px;
+        }
+        .titulo {
+            margin-top: 40px;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 100;
+            padding: 9px;
+        }
+        .grafico {
+            display: inline-flex;
+            align-items: center;
+            border-right: 1px solid black;
+            width: 90px;
+            height: 250px;  
+            background-color: rgb(249, 249, 249);
+        }
+        .lista {
+            margin: 0 auto;
+        }
+        .lista p {
+            text-align: center;
+            padding: 5px;
+            font-style: oblique;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont;
+
+        }
+        .blocos {
+            display: inline-block;
+            vertical-align: top;
+            width: 500px;
+        }
+        .blocos div {
+            margin-bottom: 18px;
+            margin-top: 15px;
+            height: 30px;
+            background: linear-gradient(to right, rgb(44, 0, 91), rgb(50, 109, 204));
+            animation-name: blocos;
+            animation-duration: 2s;
+        }
+        @keyframes blocos {
+            0%{width: 0%;}
+            100%{}
+        }
+        .blocos span {
+            color: white;
+            float: right;
+            margin: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    </style>
+<body>
+    <div class="info">
+        <div>
+        <h1>Strognoff</h1>
+        <p>Estrogonofe é um prato originário da culinária russa composto de cubos de carne bovina servidos num molho de creme de leite.</p>
+        <h1>Lasanha</h1>
+        <p>Lasanha é tanto um tipo de massa alimentícia formada por fitas largas, como também um prato, por vezes chamado lasanha ao forno, feito com essas fitas colocadas em camadas, e entremeadas com recheio e molho.</p>
+        </div>
+        <div>
+        <h1>Churrasco</h1>
+        <p>Churrasco é o prato feito à base de carne in natura ou processada, assada sobre o fogo ou brasas, com a utilização de estacas de madeira ou metal, ou de grelhas.</p>
+        <h1>Empadão</h1>
+        <p>A empada ou empadão é uma espécie de salgado popular em Portugal e no Brasil. Normalmente consiste numa caixa de massa de farinha de trigo com um recheio, muitas vezes uma tampa da mesma massa, e se assam no forno.</p>
+        </div>
+        <div>
+        <h1>Jiló</h1>
+        <p>O jiló é o fruto da planta herbácea, o jiloeiro. Esta planta é originária da África Ocidental, tendo sido trazida para o Brasil, durante o período colonial. O fruto tem um característico sabor amargo.</p>
+        </div>
+    </div>
+    <div class="titulo">
+        Comidas Preferidas
+    </div>
+    <div class="grafico">
+        <div class="lista">
+            <p>Lasanha</p>
+            <p>Empadão</p>
+            <p>Strognoff</p>
+            <p>Jiló</p>
+            <p>Churrasco</p>
+        </div>
+    </div>
+    <div class="blocos">
+        <div style="width: 20%"><span>10</span></div>
+        <div style="width: 30%"><span>15</span></div>
+        <div style="width: 32%"><span>16</span></div>
+        <div style="width: 6%"><span>3</span></div>
+        <div style="width: 36%"><span>18</span></div>
+    </div>
+</body>
+</html>
